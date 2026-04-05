@@ -1,0 +1,60 @@
+{
+  "name": "openclaw-telegram-multibot-relay",
+  "version": "0.2.0",
+  "description": "OpenClaw runtime plugin for Telegram multibot relay, delegation, and native cron reminders.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "sideEffects": false,
+  "files": [
+    "index.js",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE",
+    "PUBLISHING.md"
+  ],
+  "keywords": [
+    "openclaw",
+    "telegram",
+    "multibot",
+    "plugin",
+    "relay",
+    "reminder"
+  ],
+  "author": "tuanminhole",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanminhhole/openclaw-telegram-multibot-relay.git"
+  },
+  "homepage": "https://github.com/tuanminhhole/openclaw-telegram-multibot-relay#readme",
+  "bugs": {
+    "url": "https://github.com/tuanminhhole/openclaw-telegram-multibot-relay/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.3.24",
+      "minGatewayVersion": "2026.3.24"
+    },
+    "build": {
+      "entry": "./index.js",
+      "openclawVersion": "2026.3.24",
+      "pluginSdkVersion": "2026.3.24"
+    }
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  },
+  "scripts": {
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
