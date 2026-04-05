@@ -1,0 +1,23 @@
+{
+  "id": "telegram-multibot-relay",
+  "name": "Telegram Multibot Relay",
+  "description": "Relay Telegram multibot turns, task delegation, reminder scheduling, and reminder cleanup.",
+  "version": "0.2.0",
+  "kind": "runtime",
+  "enabledByDefault": false,
+  "runtimeId": "telegram-multibot-relay",
+  "capabilityTags": [
+    "telegram",
+    "multi-agent",
+    "reminders",
+    "relay"
+  ],
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "skills": [],
+  "providers": [],
+  "channels": []
+}

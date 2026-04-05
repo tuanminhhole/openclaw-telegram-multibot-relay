@@ -1,0 +1,9 @@
+﻿{
+  "plugins": {
+    "entries": {
+      "telegram-multibot-relay": {
+        "enabled": true
+      }
+    }
+  }
+}
